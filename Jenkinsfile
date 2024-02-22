@@ -7,7 +7,7 @@ stages
 		stage('Build')
 		{
 		steps {
-			bat "maven clean"
+			bat "mvn clean"
 		}
 
 		}
